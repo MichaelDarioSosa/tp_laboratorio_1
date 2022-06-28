@@ -68,6 +68,7 @@ int myGets (char* cadena, int longitud);
 *\return Retorna 0 si se obtuvo el numero flotante y -1 si no
 */
 int utn_getFlyCode(char* pResultado, int longitud, char* mensaje, char* mensajeError, int reintentos);
-
-
+///
+/// Imprime mensaje "Exito"
+void utn_printOk(void);
 #endif /* UTN_H_ */

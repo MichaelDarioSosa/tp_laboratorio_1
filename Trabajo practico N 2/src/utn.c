@@ -341,3 +341,6 @@ int utn_getFlyCode(char* pResultado, int longitud, char* mensaje, char* mensajeE
 	}
 return retorno;
 }
+void utn_printOk(void){
+	printf("\nExito\n");
+}
