@@ -66,16 +66,40 @@ int main()
             	controller_addPassenger(listaPasajeros);
             	break;
             case 4:
-            	controller_editPassenger(listaPasajeros);
+            	if(ll_isEmpty(listaPasajeros) == 0){
+            		controller_editPassenger(listaPasajeros);
+            	}
+            	else
+            	{
+            		printf("Lista vacia");
+            	}
             	break;
             case 5:
-            	controller_removePassenger(listaPasajeros);
+            	if(ll_isEmpty(listaPasajeros) == 0){
+            		controller_removePassenger(listaPasajeros);
+            	}
+            	else
+            	{
+            		printf("Lista vacia");
+            	}
             	break;
             case 6:
-            	controller_ListPassenger(listaPasajeros);
+            	if(ll_isEmpty(listaPasajeros) == 0){
+            		controller_ListPassenger(listaPasajeros);
+            	}
+            	else
+            	{
+            		printf("Lista vacia");
+            	}
             	break;
             case 7:
-            	controller_sortPassenger(listaPasajeros);
+            	if(ll_isEmpty(listaPasajeros) == 0){
+            		controller_sortPassenger(listaPasajeros);
+            	}
+            	else
+            	{
+            		printf("Lista vacia");
+            	}
             	break;
             case 8:
             case 9:
