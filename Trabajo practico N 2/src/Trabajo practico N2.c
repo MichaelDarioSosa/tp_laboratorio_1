@@ -152,6 +152,6 @@ int main(void){
 				break;
 			}
 		}
-	}while(opcion_A != 5);
+	}while(opcion_A != 6);
 	return EXIT_SUCCESS;
 }
